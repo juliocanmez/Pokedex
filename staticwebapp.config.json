@@ -1,6 +1,6 @@
 {
   "globalHeaders": {
-    "Content-Security-Policy": "default-src 'self' https: data: 'unsafe-inline' 'unsafe-eval';",
+    "Content-Security-Policy": "default-src 'self' https: data:;",
     "X-Frame-Options": "DENY",
     "X-Content-Type-Options": "nosniff",
     "Referrer-Policy": "same-origin",
@@ -8,3 +8,4 @@
     "Permissions-Policy": "geolocation=(), microphone=(), camera=()"
   }
 }
+
